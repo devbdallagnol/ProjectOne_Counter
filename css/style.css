@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color:rgba(130, 102, 0, 0.867)
+}
+
+main{
+    margin: 50% auto;
+    border: 5px solid rgba(43, 43, 34, 0.5);
+    border-radius: 10%;
+    border-style: hidden;
+    padding: 2px;
+    text-align: center;
+    background-color: rgb(255, 158, 1);
+    box-shadow: 10px 8px 32px 0 rgba(10, 9, 1, 0.37);
+    color: white;
+}
+
+.glass{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 10px 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10%;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 15px;
+}
+
+.gradient {
+    background-image: linear-gradient(to right, #cbcb3c 50%, rgba(132, 109, 18, 0.75)), url(../img/hero.webp);
+    background-position: center;
+    background-size: cover;
+}
+
